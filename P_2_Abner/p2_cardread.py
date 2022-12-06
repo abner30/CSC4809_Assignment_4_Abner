@@ -5,7 +5,7 @@ import webbrowser
 
 pytesseract.pytesseract.tesseract_cmd = "/Users/abno2018/depthai/ass4/p_2_abner/Tesseract-OCR//tesseract.exe"
 
-img = cv2.imread("abnercard.png")
+img = cv2.imread("Abner_Business_Card.png")
  
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
