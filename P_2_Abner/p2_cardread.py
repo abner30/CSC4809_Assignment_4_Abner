@@ -3,7 +3,7 @@ import pytesseract
 import webbrowser
  
 
-pytesseract.pytesseract.tesseract_cmd = "C:\\abno2018\\Python\\Program Files\\Tesseract-OCR\\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "/Users/abno2018/depthai/ass4/p_2_abner/Tesseract-OCR//tesseract.exe"
 
 img = cv2.imread("abnercard.png")
  
